@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Mansalva;
+    src: url('/fonts/Mansalva/Mansalva-Regular.ttf');
+}
+
+
+footer {
+    font-size: 1em;
+    padding: 5px;
+    background-color: rgba(236, 4, 82, 0.931);
+    border: indigo solid 2px;
+    position: relative;
+    bottom: 0;
+    font-family: Mansalva, sans-serif;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+footer span {
+    color: rgb(38, 0, 255);
+}
+
+.about {
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: blue;
+    height: 80%;
+    padding: 2%;
+    text-align: center;
+}
+
+.about img {
+    width: 200px;
+    height: 200px;
+}

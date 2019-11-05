@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Mansalva;
+    src: url('/fonts/Mansalva/Mansalva-Regular.ttf');
+}
+
+.form-container {
+    background-color: rgba(236, 4, 82, 0.931);
+    padding: 5px;
+    border: indigo solid 2px;
+    align-items: center;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.book-review {
+    display: inline-block;
+    background-color: rgba(236, 4, 82, 0.931);
+    padding: 5px;
+    border: indigo solid 2px;
+    width: 300px;
+    text-align: center;
+}
+
+.name {
+    width: 40%;
+    height: 20px;
+}
+
+.date {
+    width: 40%;
+}
+
+.rate {
+    width: 10%;
+    height: 25px;
+    margin: 2%;
+}
+
+textarea {
+    width: 95%;
+    margin: 2%;
+}
+    
+
+button{
+    background-color: rgb(55, 82, 235);
+    border: blue;
+    color: white;
+    height: 30px;
+    padding: 2%;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:blue;
+}
